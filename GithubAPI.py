@@ -31,7 +31,7 @@ class Testgit_data(unittest.TestCase):
         self.assertTrue(len(git_data("kunalsatija009")) > 0)
 
     def test_get_commits(self):
-        self.assertEqual(git_data("kunalsatija009") , {"GithubAPI567" : 1,"Triangle567_HW-02" :6 ,})
+        self.assertEqual(git_data("kunalsatija009") , {"GithubAPI567" : 4,"Triangle567_HW-02" :6 ,})
 
 
 if __name__ == '__main__':
