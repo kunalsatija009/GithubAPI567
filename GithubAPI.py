@@ -25,7 +25,7 @@ def git_data(userid):
 
 class Testgit_data(unittest.TestCase):
     def test_git_data(self):
-        self.assertEqual(git_data("kunalsatija009"),{'GithubAPI567': 22, 'Triangle567_HW-02': 26} )
+        self.assertEqual(git_data("kunalsatija009"),{'GithubAPI567': 23, 'Triangle567_HW-02': 28} )
 
 
 
